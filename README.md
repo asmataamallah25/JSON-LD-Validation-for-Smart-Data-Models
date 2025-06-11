@@ -26,32 +26,38 @@ Provides clear error messages and guidance for fixing structural mismatches.
 ### Problem: GeoJSON Structure
 **Invalid:**
 
-json
+```json
 "operationSpace": {
   "type": "GeoProperty",
   "value": { "type": "Point", "coordinates": [5.265056, 52.750306] }
 }
+```
+
 **Valid:**
 
-json
+```json
 "operationSpace": {
   "type": "Point",
   "coordinates": [5.265056, 52.750306]
 }
+```
 
 ## Problem: NGSI-LD vs. Schema Structure
+
 **Invalid:**
 
-json
+```json
 "license": {
   "type": "Property",
   "value": "Apache-2.0"
 }
+```
+
 **Valid:**
 
-json
+```json
 "license": "Apache-2.0"
-
+```
 ## Additional tools
 In addition to local validation with Node.js and Ajv, the online tool [JSON Schema Validator]( https://www.jsonschemavalidator.net/) by Newtonsoft was used to verify the validition of the JSON-LD files against the bundled JSON Schema.
 
