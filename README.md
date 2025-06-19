@@ -61,7 +61,7 @@ Provides clear error messages and guidance for fixing structural mismatches.
 }
 ```
 
-## Problem: NGSI-LD vs. Schema Structure
+### Problem: NGSI-LD vs. Schema Structure
 
 **Invalid:**
 
