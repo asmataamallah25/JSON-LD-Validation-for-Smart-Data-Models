@@ -31,10 +31,13 @@ Provides clear error messages and guidance for fixing structural mismatches.
 ```bash
   npm install
 ```
+The installed packages are placed in the node_modules folder in the project root.
+
 2. Bundle the JSON Schema:
 ```bash
   node bundle-schema.js
 ```
+
 3. Validate JSON-LD files:
 ```bash
   node <file_name>.js
