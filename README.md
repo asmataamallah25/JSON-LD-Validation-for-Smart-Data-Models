@@ -18,9 +18,9 @@ Provides clear error messages and guidance for fixing structural mismatches.
 - ajv and ajv-formats (for validation)
 
 ## Explanation of the used tools
-1. json-schema-ref-parser bundles JSON Schemas by resolving all external references, including those to files and URLs. This results in a single, self-contained schema ready for validation.
-2. Ajv (JSON Schema Validator) validates JSON-LD data against the bundled schema. Ajv is fast, standards-compliant, and supports a wide range of validation features.
-3. ajv-formats extends Ajv with support for additional data formats (e.g., email, uri, date-time), ensuring that values in your JSON-LD data meet expected format requirements.
+1. **json-schema-ref-parser** bundles JSON Schemas by resolving all external references, including those to files and URLs. This results in a single, self-contained schema ready for validation.
+2. **Ajv (JSON Schema Validator)** validates JSON-LD data against the bundled schema. Ajv is fast, standards-compliant, and supports a wide range of validation features.
+3. **ajv-format**s extends Ajv with support for additional data formats (e.g., email, uri, date-time), ensuring that values in your JSON-LD data meet expected format requirements.
 
 ## Validation Workflow
 1. Bundle the JSON Schema.
@@ -42,7 +42,7 @@ Provides clear error messages and guidance for fixing structural mismatches.
    
 ## Fixing Common Validation Errors (Examples)
 
-### Issue: GeoJSON Structure
+### Issue: GeoJSON Structure Mismatch
 **Invalid:**
 
 ```json
@@ -61,8 +61,7 @@ Provides clear error messages and guidance for fixing structural mismatches.
 }
 ```
 
-### Issue: NGSI-LD vs. Schema Structure
-
+### Issue: Mismatch Between NGSI-LD Data Format and Expected JSON Schema Structure
 **Invalid:**
 
 ```json
