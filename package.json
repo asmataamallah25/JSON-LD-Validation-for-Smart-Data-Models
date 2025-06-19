@@ -1,0 +1,26 @@
+{
+  "name": "json-ld-validation-for-smart-data-models",
+  "version": "1.0.0",
+  "author": {
+    "name": "Asma Taamallah",
+    "email": "asma.taamallah@fiware.org"
+  },
+  "license": "Apache-2.0",
+  "description": "Validates JSON-LD data for Smart Data Models using the Ajv JSON Schema validator and json-schema-ref-parser in Node.js. Bundles schemas, validates files, and provides clear error messages.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asmataamallah25/JSON-LD-Validation-for-Smart-Data-Models"
+  },
+  "keywords": [
+    "json-ld",
+    "smart-data-models",
+    "validation",
+    "ajv",
+    "json-schema"
+  ],
+  "dependencies": {
+    "json-schema-ref-parser": "^9.0.9",
+    "ajv": "^8.17.0",
+    "ajv-formats": "^2.1.1"
+  }
+}
