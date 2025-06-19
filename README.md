@@ -42,7 +42,7 @@ Provides clear error messages and guidance for fixing structural mismatches.
    
 ## Fixing Common Validation Errors (Examples)
 
-### Problem: GeoJSON Structure
+### Issue: GeoJSON Structure
 **Invalid:**
 
 ```json
@@ -61,7 +61,7 @@ Provides clear error messages and guidance for fixing structural mismatches.
 }
 ```
 
-### Problem: NGSI-LD vs. Schema Structure
+### Issue: NGSI-LD vs. Schema Structure
 
 **Invalid:**
 
