@@ -45,9 +45,10 @@ This command download the corresponding JSON Schema of the DataService and save 
 ```
 
 Where the file_name should be:
-validate_CY.js, validate the corresponding CY_P.jsonld files against the JSON Schema.
-validate_DE.js, validate the corresponding DE_P.jsonld files against the JSON Schema.
-validate_NL.js, validate the corresponding NL_P.jsonld files against the JSON Schema.
+
+- validate_CY.js, validate the corresponding CY_P.jsonld files against the JSON Schema.
+- validate_DE.js, validate the corresponding DE_P.jsonld files against the JSON Schema.
+- validate_NL.js, validate the corresponding NL_P.jsonld files against the JSON Schema.
 
    
 ## Fixing Common Validation Errors (Examples)
