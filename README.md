@@ -37,11 +37,18 @@ The installed packages are placed in the node_modules folder in the project root
 ```bash
   node bundle.js
 ```
+This command download the corresponding JSON Schema of the DataService and save the content under the bundled.json filename.
 
 3. Validate JSON-LD files:
 ```bash
   node <file_name>.js
 ```
+
+Where the file_name should be:
+validate_CY.js, validate the corresponding CY_P.jsonld files against the JSON Schema.
+validate_DE.js, validate the corresponding DE_P.jsonld files against the JSON Schema.
+validate_NL.js, validate the corresponding NL_P.jsonld files against the JSON Schema.
+
    
 ## Fixing Common Validation Errors (Examples)
 
