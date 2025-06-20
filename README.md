@@ -35,7 +35,7 @@ The installed packages are placed in the node_modules folder in the project root
 
 2. Bundle the JSON Schema:
 ```bash
-  node bundle-schema.js
+  node bundle.js
 ```
 
 3. Validate JSON-LD files:
